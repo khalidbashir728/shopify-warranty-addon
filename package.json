@@ -1,0 +1,11 @@
+{
+  "name": "shopify-warranty-addon",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A small warranty widget for Shopify PDP (vanilla JS + Liquid snippet)",
+  "scripts": {
+    "build": "echo \"No build step configured. Dist is prebuilt.\""
+  },
+  "author": "khalidbashir728",
+  "license": "MIT"
+}

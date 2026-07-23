@@ -1,0 +1,10 @@
+<!-- Example: how to include the snippet in product.liquid -->
+
+{%- section 'product-template' -%}
+  <!-- Your product main markup here -->
+
+  <!-- Insert warranty widget near price or purchase controls -->
+  {% render 'warranty-widget' %}
+
+  <!-- The widget will try to attach selected warranty as a line item property on the add-to-cart form -->
+{%- endsection -%}

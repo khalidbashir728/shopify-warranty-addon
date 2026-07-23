@@ -1,0 +1,18 @@
+<!-- snippets/warranty-widget.liquid -->
+{% comment %}
+Place this snippet inside your product template where you want the warranty widget to appear.
+Upload `dist/widget.min.js` and `src/styles.css` (or `dist/warranty-widget.css`) to your theme assets and reference them below.
+{% endcomment %}
+
+<div id="warranty-widget"
+     data-warranty-api="{{ settings.warranty_api_url }}"
+     data-product-id="{{ product.id }}"
+     data-store-key="{{ shop.myshopify_domain }}">
+  <!-- Widget will mount here -->
+</div>
+
+{%- comment -%}
+Include CSS and JS assets (upload the files via theme editor or CLI):
+{%- endcomment -%}
+<link rel="stylesheet" href="{{ 'src/styles.css' | asset_url }}">
+<script src="{{ 'widget.min.js' | asset_url }}" defer></script>
