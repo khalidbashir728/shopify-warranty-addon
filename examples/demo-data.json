@@ -1,0 +1,6 @@
+{
+  "plans": [
+    { "id": "w1", "name": "1 Year Protection", "price": "9.99", "price_display": "$9.99", "term": "1 year" },
+    { "id": "w2", "name": "2 Year Protection", "price": "16.99", "price_display": "$16.99", "term": "2 years" }
+  ]
+}
